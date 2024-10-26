@@ -1,12 +1,46 @@
+.react-chatbot-kit-chat-container {
+  width: 700px;
+  height: 800px;
+  background-color: #F7F6F2;
+
+}
+
+.react-chatbot-kit-chat-message-container {
+  height: 700px;
+  background-color: #F7F6F2;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 20px;
+}
+
+.react-chatbot-kit-chat-container {
+  width: 500px; 
+  max-width: 90%;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 15px; 
+}
+
+.react-chatbot-kit-chat-input-container {
+  height: 60px;
+  border-bottom-left-radius: 15px;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  border-bottom-right-radius: 15px;
+}
+
 .react-chatbot-kit-chat-input {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-top: 1px solid #ddd;
-    font-size: 16px;
-  }
-  
+  border-bottom-left-radius: 15px;
+  outline: none; /* 포커스했을 때 생기는 검정 테두리 제거 */
+}
+
 .react-chatbot-kit-chat-input:focus {
-    outline: none;
-  }
-  
+  outline: none; /* 포커스 상태일 때 outline 제거 */
+}
+
+/* .react-chatbot-kit-chat-bot-avatar-container, .react-chatbot-kit-user-avatar-container {
+  width: 60px;
+  height: 60px;
+} */
